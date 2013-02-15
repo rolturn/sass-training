@@ -1,0 +1,118 @@
+// SASS WATCH COMMAND
+// for dev: sass --watch styles.scss:styles.css
+// for prod: sass --watch styles.scss:styles.css --style compressed
+
+@import "_base-reset.scss", "_base-mixins.scss",  "_mixin.scss", "_base-grid.scss", "_base-layout.scss", "_base-navigation.scss", "_base-typography.scss", "layout.scss";
+
+
+/*
+body {
+	background: lighten($dark-grey, 70%);
+	font-size: 115%;
+	font-weight: 300;
+	font-family: $f-primary;
+	letter-spacing: .03em;
+	color: $dark-grey;
+}
+
+h1 {
+	font-family: $f-secondary;
+	font-size: 5em;
+	letter-spacing: -.0125em;
+	color: lighten($dark-grey, 40%);
+	@include break(v-tablet) {
+		font-size: 3em;
+	}
+	@include break(v-mobile) {
+		font-size: 2em;
+	}
+}
+
+h2 {
+	text-transform: uppercase;
+}
+
+
+.wrapper {
+	background: lighten($dark-grey, 90%);
+	@include border-bottom-radius();
+	&.pad {
+		padding: 2em $pad 1em $pad;
+	}
+}
+
+.heading-left {
+	background: lighten($dark-grey, 60%);
+	padding: 1em;
+	margin-top: 1em;
+	@include border-radius();
+}
+
+.group-left {
+	h2 {
+		color: white;
+	}
+	@include col(1,4,2);
+	@include break(tablet) {
+		@include col(1,1,0);
+	}
+}
+
+.group-right {
+	@include col-last(3,4,2);
+	@include break(tablet) {
+		@include col(1,1,0);
+	}
+}
+
+.columning {
+	h2 {
+		margin: 1em 0 0 0;
+		color: lighten($dark-grey, 30%);
+	}
+	.group {
+		&> div {
+			@include border-radius();
+			margin-bottom: 1em;
+			p {
+				padding: 1em;
+				text-align: center;
+				font-weight: 300;
+				text-transform: uppercase;
+			}
+		}
+	}
+}
+
+.blue {
+	background-color: $blue;
+	color: lighten($dark-grey, 70%);
+}
+
+.red {
+	background-color: $red;
+	color: lighten($dark-grey, 70%);
+}
+
+.yellow {
+	background-color: $yellow;
+	color: $dark-grey;
+}
+
+
+.image {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	float: right;
+	height: 200px;
+	width: 47%;
+	margin: 0 0 .5em 3%;
+	@include border-radius();
+	@include break(v-tablet) {
+		width: 100%;
+		float: none;
+		margin: 1em 0;
+	}
+}
+*/

@@ -1,0 +1,46 @@
+// !PADDING VARIABLES
+$wrap-pad: 5; 
+$pad: 5%; 
+
+
+// !GLOBAL RESPONSIVE VARIABLES
+$desk: 1200px;
+$tablet: 1200px;
+$v-tablet: 1020px;
+$mobile: 760px;
+$v-mobile: 500px;
+$sm-mobile: 500px;
+
+// !GLOBAL GUTTER VARIABLES
+//column gutter variables we now how four options if using gutter space
+$gut-no: 0;
+$gut-sm: 1;
+$gut-med: 3;
+$gut-lg: 20;
+
+
+// !GLOBAL COLORS
+$c-primary: #63acde;
+$c-secondary: #ffc600;
+$c-tertiary: #666666;
+$c-shadows: #9d646b;
+
+$black: #000;
+$red: #c91818;
+$blue: #6a818a;
+$yellow: #f5dc06;
+
+
+
+$dark-grey: #343433;
+$grey: #ced0d1;
+$light-grey: #f8f8f8;
+
+
+// !BORDER RADIUS
+$b-radius: 6px;
+
+
+// !FONTS
+$f-primary: "Roboto", "Trebuchet MS", Tahoma, Verdana, sans-serif;
+$f-secondary: "Economica", "Trebuchet MS", Tahoma, Verdana, sans-serif;

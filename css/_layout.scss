@@ -1,0 +1,66 @@
+// Wrapper Defines with of site
+.wrapper {
+	width: $desk;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	@include box-sizing();
+	@include break(tablet) { 
+		width: percentage((100-($wrap-pad*2))/100);
+	}
+	&.pad {
+		//padding-left: percentage($wrap-pad/100);
+		//padding-right: percentage($wrap-pad/100);
+	}
+}
+
+
+.clearfix {
+	@include clearfix(before);
+	@include clearfix(after);
+}
+
+//Code that builds css for columing system
+
+//Column Number is used to determine to total amount of columns you desire to generate
+$col-number: 4;
+
+@include break-contain(desk) {
+	@include col-build(desk,$col-number);
+}
+
+@include break-contain(tablet-desk) {
+	@include col-build(tablet,$col-number);
+}
+
+@include break-contain(v-tablet-tablet) {
+	@include col-build(v-tablet,$col-number);
+}
+
+@include break-contain(mobile-v-tablet) {
+	@include col-build(mobile,$col-number);
+}
+
+@include break-contain(v-mobile-mobile) {
+	@include col-build(v-mobile,$col-number);
+}
+
+// ! Mobile Elements ===================================================
+
+
+// ! Header-top Layout ===================================================
+
+
+// ! Header Layout ===================================================
+
+
+// Preface ===================================================
+
+// Main ===================================================
+
+
+// Sidebar ===================================================
+
+// Postscript ===================================================
+
+
