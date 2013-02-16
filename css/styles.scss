@@ -4,11 +4,9 @@
 
 @import "_base-reset.scss", "_base-mixins.scss",  "_mixin.scss", "_base-grid.scss", "_base-layout.scss", "_base-navigation.scss", "_base-typography.scss", "layout.scss";
 
-
-/*
 body {
 	background: lighten($dark-grey, 70%);
-	font-size: 115%;
+	font-size: 150%;
 	font-weight: 300;
 	font-family: $f-primary;
 	letter-spacing: .03em;
@@ -52,14 +50,14 @@ h2 {
 	h2 {
 		color: white;
 	}
-	@include col(1,4,2);
+	@include col(25,100,2);
 	@include break(tablet) {
 		@include col(1,1,0);
 	}
 }
 
 .group-right {
-	@include col-last(3,4,2);
+	@include col-last(75,100,2);
 	@include break(tablet) {
 		@include col(1,1,0);
 	}
@@ -115,4 +113,3 @@ h2 {
 		margin: 1em 0;
 	}
 }
-*/
